@@ -307,15 +307,15 @@
 		}});
 		
 		if (mapLoaded == 0)
-			{
-				createIncidentMap();
-			}
-			
-			// Set the current page
-			urlParameters["page"] = $(".pager li a.active").html();
-			
-			// Load the map
-			setTimeout(function(){ showIncidentMap() }, 400);
+		{
+			createIncidentMap();
+		}
+		
+		// Set the current page
+		urlParameters["page"] = $(".pager li a.active").html();
+		
+		// Load the map
+		setTimeout(function(){ showIncidentMap() }, 400);
 
 	});
 	
